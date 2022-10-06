@@ -1,9 +1,10 @@
 import streamlit as st
 
-if flag != True:
+flag
+if flag != False:
   lista = []
 valor = st.number_input("Digite um numero")
 if st.button("Inserir"):
-  flag = True
+  flag = False
   lista.append(valor)
 st.write(lista)
